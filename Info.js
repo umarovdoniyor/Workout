@@ -11,6 +11,7 @@ export default class Info extends React.Component {
           <Image
             style={styles.img}
             source={params.image}
+            resizeMode="contain"
           />
         </View>
         <ScrollView contentContainerStyle={styles.scroll}>
@@ -37,11 +38,12 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: 40
+    paddingTop: 40,
+    // backgroundColor: 'white',
   },
   img: {
-    width: Dimensions.get('window').width-50,
-    height: Dimensions.get('window').height/3,
+    width: Dimensions.get('window').width,
+    // height: Dimensions.get('window').height,
   },
   scroll: {
     flexGrow: 1,

@@ -14,7 +14,7 @@ export default [
 			},
 			{
 				name: "Bench Cable Flyes",
-				image: require('./img/1-2.png'),
+				image: require('./img/1-2.jpg'),
 				equipment: "Cable station",
 				description: `Laying flat on a bench take hold of each cable and position the handles directly above your chest.
 				With only a slight bend at the elbow, allow the cable to slowly pull your arms outwards until they reach the same horizontal level as the bench.
@@ -70,7 +70,7 @@ export default [
 				Repeat.`.replace(/\t+/g, "\n")
 			},
 			{
-				name: "Stability / Swiss / Exercise Ball Rollout",
+				name: "Stability/Swiss / exercise ball rollout",
 				image: require('./img/2-3.png'),
 				equipment: "Swiss,Exercise Ball",
 				description: `Kneel on the ground and place a Swiss Ball in front of you. Cross your feet in the back. Brace your core as you place your forearms on the Swiss Ball.
