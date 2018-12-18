@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, StatusBar, TouchableOpacity } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View, Image, StatusBar, TouchableOpacity } from 'react-native'
 
 const Btn = props => (
   <TouchableOpacity style={styles.btn} onPress={props.onPress}>
@@ -101,7 +101,9 @@ const styles = StyleSheet.create({
   btnHeader: {
     backgroundColor: '#191919',
     width: '100%',
+    height: '75%',
     alignItems:'center',
+    justifyContent: 'center',
   },
   btnTxt1: {
     color: '#aaa',

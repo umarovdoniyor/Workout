@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, StatusBar, ScrollView, Dimensions } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View, Image, StatusBar, ScrollView, Dimensions } from 'react-native'
 
 export default class Info extends React.Component {
   render() {
@@ -15,13 +15,13 @@ export default class Info extends React.Component {
           />
         </View>
         <ScrollView contentContainerStyle={styles.scroll}>
-            <View>
-              <Text style={styles.header}>{params.title}</Text>
-              <Text style={styles.equipment}>{params.equipment}</Text>
-            </View>
-            <Text style={styles.subHeader}>{params.name}</Text>
-            <Text style={styles.description}>{params.description}</Text>
-          </ScrollView>
+          <View>
+            <Text style={styles.header}>{params.title}</Text>
+            <Text style={styles.equipment}>{params.equipment}</Text>
+          </View>
+          <Text style={styles.subHeader}>{params.name}</Text>
+          <Text style={styles.description}>{params.description}</Text>
+        </ScrollView>
       </View>
     );
   }
